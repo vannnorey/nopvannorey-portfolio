@@ -14,7 +14,7 @@ console.log("Resend API Key loaded:", !!process.env.RESEND_API_KEY);
 
 // CORS
 app.use(cors({
-  origin: ['https://portfoliowebsite-xaix.onrender.com','http://localhost:300', 'http://localhost:3002','http://localhost:5173'],
+  origin: ['https://nopvannorey-portfolio.onrender.com','http://localhost:3000', 'http://localhost:3002','http://localhost:5173'],
   credentials: true
 }));
 
