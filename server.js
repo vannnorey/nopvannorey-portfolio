@@ -19,7 +19,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "dist")));
 
 // ========== RESEND INITIALIZATION ==========
 const resend = new Resend(process.env.RESEND_API_KEY || "re_K1TWDADS_CjthSw2xRwEkxV6SaSLVFYaa");
